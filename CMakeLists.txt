@@ -50,7 +50,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Core/Src/Tools.c
     Core/Src/nrf24l01p.c
-    Core/Src/General.c
+    Core/Src/Core.c
 )
 
 # Add include paths

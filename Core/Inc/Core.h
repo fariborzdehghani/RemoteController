@@ -1,5 +1,5 @@
-#ifndef GENERAL_H
-#define GENERAL_H
+#ifndef CORE_H
+#define CORE_H
 
 #include "main.h"
 #include <stdbool.h>

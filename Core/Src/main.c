@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "General.h"
+#include "Core.h"
 #include "nrf24l01p.h"
 #include "Tools.h"
 #include "string.h"

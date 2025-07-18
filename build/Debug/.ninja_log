@@ -22,5 +22,8 @@
 6003	7504	7482142377082183	CMakeFiles/RemoteController.dir/Core/Src/syscalls.c.obj	dc64115fd1058e97
 24	506	7526703936285745	CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj	82b4f27773fe0513
 35	504	7719866338660175	CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj	e6e4093f242323e1
-104	7528	7745546413282815	build.ninja	8bd265861b953311
+104	7528	7745549349377435	build.ninja	8bd265861b953311
 40	789	7719857840856267	CMakeFiles/RemoteController.dir/Core/Src/General.c.obj	ec58bc913cda8c6a
+42	4174	7745549813360322	CMakeFiles/RemoteController.dir/Core/Src/main.c.obj	90fd1b353d38aa4
+27	4176	7745549813360322	CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj	5d37aeaa3bda0d99
+4176	5015	7745549821577120	RemoteController.elf	b08c16dbdf43736e

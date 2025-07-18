@@ -438,117 +438,117 @@ Discarded input sections
  .debug_macro   0x00000000      0x28e CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_macro   0x00000000       0x3a CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .text          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .data          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .bss           0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .bss.PacketReceived
-                0x00000000        0x1 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .bss.rx_data   0x00000000       0x20 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0xaa8 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x21b CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x51 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x1df CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0xbd CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0xd23 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000     0xe09e CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000     0x348d CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x189 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x5c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x5bc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x289 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x1cb CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x114 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x1b2 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x27 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x136 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x1bc CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x57 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x87 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x240 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x140 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x217 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x28e CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x83 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x3a CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x74 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x24 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x43 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x1de CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000      0x369 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x35 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x00000000       0x20 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x00000000        0x1 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .bss.rx_data   0x00000000       0x20 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0xaa8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x21b CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0xbd CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0xd23 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000     0xe09e CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000     0x348d CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x189 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x5bc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x289 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x1cb CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x114 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x1b2 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x27 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x136 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x1bc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x87 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x240 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x140 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x217 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x28e CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x83 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x74 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x24 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000      0x369 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00000000       0x20 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
@@ -2655,7 +2655,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 END GROUP
 LOAD CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
 LOAD CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
-LOAD CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+LOAD CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
 LOAD CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
 LOAD CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -2766,13 +2766,13 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x080005d8                nrf24l01p_power_down
  *fill*         0x08000602        0x2 
  .text.General_Init
-                0x08000604       0x54 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x08000604       0x54 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x08000604                General_Init
  .text.General_Loop
-                0x08000658       0xe4 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x08000658       0xe4 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x08000658                General_Loop
  .text.HAL_UART_RxCpltCallback
-                0x0800073c       0x64 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x0800073c       0x64 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x0800073c                HAL_UART_RxCpltCallback
  .text.main     0x080007a0       0x22 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
                 0x080007a0                main
@@ -3054,7 +3054,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  *(.rodata)
  .rodata        0x080034b0        0x2 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  *fill*         0x080034b2        0x2 
- .rodata        0x080034b4       0x87 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .rodata        0x080034b4       0x87 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  *(.rodata*)
  *fill*         0x0800353b        0x1 
  .rodata.aPLLMULFactorTable.1
@@ -3131,18 +3131,18 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .bss           0x2000000c       0x1c C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
  .bss.LED_Timer
-                0x20000028        0x2 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x20000028        0x2 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .bss.PacketReadyToSend
-                0x2000002a        0x1 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x2000002a        0x1 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x2000002a                PacketReadyToSend
  .bss.USART_ReceivedByte
-                0x2000002b        0x1 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x2000002b        0x1 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x2000002b                USART_ReceivedByte
  .bss.USART_Buffer
-                0x2000002c       0x20 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x2000002c       0x20 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x2000002c                USART_Buffer
  .bss.USART_dataIndex
-                0x2000004c        0x2 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x2000004c        0x2 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
                 0x2000004c                USART_dataIndex
  *fill*         0x2000004e        0x2 
  .bss.hspi1     0x20000050       0x58 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
@@ -3189,7 +3189,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .ARM.attributes
                 0x000000d1       0x2d CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .ARM.attributes
-                0x000000fe       0x2d CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x000000fe       0x2d CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .ARM.attributes
                 0x0000012b       0x2d CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .ARM.attributes
@@ -3229,7 +3229,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_frame   0x00000020       0x2c C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
  .debug_frame   0x0000004c       0xa0 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_frame   0x000000ec      0x528 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .debug_frame   0x00000614       0x7c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .debug_frame   0x00000614       0x7c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_frame   0x00000690       0xc4 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_frame   0x00000754      0x13c CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_frame   0x00000890       0xc8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -3245,7 +3245,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 .debug_info     0x00000000     0xaa87
  .debug_info    0x00000000      0x69a CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_info    0x0000069a      0xf1d CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .debug_info    0x000015b7      0x843 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .debug_info    0x000015b7      0x843 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_info    0x00001dfa      0xd9b CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_info    0x00002b95      0x60d CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_info    0x000031a2      0xbda CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -3263,7 +3263,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 .debug_abbrev   0x00000000     0x1f62
  .debug_abbrev  0x00000000      0x1f4 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_abbrev  0x000001f4      0x306 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .debug_abbrev  0x000004fa      0x222 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .debug_abbrev  0x000004fa      0x222 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_abbrev  0x0000071c      0x279 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_abbrev  0x00000995      0x18b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_abbrev  0x00000b20      0x1ba CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -3284,7 +3284,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_aranges
                 0x00000038      0x148 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_aranges
-                0x00000180       0x30 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x00000180       0x30 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_aranges
                 0x000001b0       0x48 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_aranges
@@ -3319,7 +3319,7 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_rnglists
                 0x00000025       0xf3 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_rnglists
-                0x00000118       0x20 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+                0x00000118       0x20 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_rnglists
                 0x00000138       0x32 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_rnglists
@@ -3401,8 +3401,8 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x00015b33      0x1bf CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_macro   0x00015cf2       0x22 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
  .debug_macro   0x00015d14      0x14e CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .debug_macro   0x00015e62      0x28c CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_macro   0x000160ee      0x154 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .debug_macro   0x00015e62      0x28c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x000160ee      0x154 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_macro   0x00016242      0x2c4 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00016506       0x1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00016522       0x10 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
@@ -3420,63 +3420,63 @@ LOAD C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x00017465      0x199 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_macro   0x000175fe      0x198 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
 
-.debug_line     0x00000000     0xc2b4
+.debug_line     0x00000000     0xc2ab
  .debug_line    0x00000000      0x891 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_line    0x00000891      0xc0d CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .debug_line    0x0000149e      0x8bb CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
- .debug_line    0x00001d59      0x973 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_line    0x000026cc      0x84b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00002f17      0x801 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00003718     0x1cb6 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_line    0x000053ce      0xa04 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00005dd2      0xe0d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00006bdf      0xa9d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x0000767c      0xe5d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x000084d9      0xbf0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x000090c9     0x294d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000ba16      0x7d7 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000c1ed       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
- .debug_line    0x0000c265       0x4f C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_line    0x0000149e      0x8b5 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_line    0x00001d53      0x970 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_line    0x000026c3      0x84b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00002f0e      0x801 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000370f     0x1cb6 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_line    0x000053c5      0xa04 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00005dc9      0xe0d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00006bd6      0xa9d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00007673      0xe5d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x000084d0      0xbf0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000090c0     0x294d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0000ba0d      0x7d7 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000c1e4       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x0000c25c       0x4f C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
 
-.debug_str      0x00000000    0x84286
+.debug_str      0x00000000    0x84280
  .debug_str     0x00000000    0x80a1d CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
                               0x80dc4 (size before relaxing)
  .debug_str     0x00080a1d      0xd36 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
                               0x7eda6 (size before relaxing)
- .debug_str     0x00081753      0x133 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
-                              0x81578 (size before relaxing)
- .debug_str     0x00081886      0xbdc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                              0x82194 (size before relaxing)
- .debug_str     0x00082462      0x15c CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00081753      0x12d CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                              0x81572 (size before relaxing)
+ .debug_str     0x00081880      0xbdc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                              0x82191 (size before relaxing)
+ .debug_str     0x0008245c      0x15c CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
                               0x7e2b0 (size before relaxing)
- .debug_str     0x000825be       0xde CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x000825b8       0xde CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x7e753 (size before relaxing)
- .debug_str     0x0008269c      0x596 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_str     0x00082696      0x596 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
                               0x7e6db (size before relaxing)
- .debug_str     0x00082c32      0x3b1 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00082c2c      0x3b1 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x7e4e2 (size before relaxing)
- .debug_str     0x00082fe3      0x27d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00082fdd      0x27d CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x7e1de (size before relaxing)
- .debug_str     0x00083260      0x32b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0008325a      0x32b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x7e135 (size before relaxing)
- .debug_str     0x0008358b      0x243 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x00083585      0x243 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                               0x7e158 (size before relaxing)
- .debug_str     0x000837ce      0x2d7 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x000837c8      0x2d7 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x7e42e (size before relaxing)
- .debug_str     0x00083aa5      0x5fa CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x00083a9f      0x5fa CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x7e84f (size before relaxing)
- .debug_str     0x0008409f       0x95 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00084099       0x95 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
                               0x7ddaf (size before relaxing)
- .debug_str     0x00084134       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x0008412e       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
                                  0xca (size before relaxing)
- .debug_str     0x000841ac       0xda C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_str     0x000841a6       0xda C:/ST/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
                                  0xef (size before relaxing)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
                                  0x44 (size before relaxing)
  .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj
- .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/General.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .comment       0x00000043       0x44 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
