@@ -1,0 +1,26 @@
+# ninja log v5
+51	2133	7482142322438676	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	508da228987f3fff
+48	837	7719857841579103	CMakeFiles/RemoteController.dir/Core/Src/main.c.obj	90fd1b353d38aa4
+33	2252	7482142322038525	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	43a7ab1c573a0c05
+62	2070	7510680692601643	CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj	219689aca0780657
+85	2060	7510680692289212	CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj	5c78ae67a7b2064c
+1889	4071	7482142341569962	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	9d0d13f0234efb85
+43	2844	7482142328408975	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj	ac78f5d2e4cff05f
+1830	4046	7482142341050985	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	28345663b65f9e71
+2133	4277	7482142343874451	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	960b5c2358473257
+2123	4289	7482142343183956	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	b37cf7a8a336d79
+2252	4436	7482142345358600	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	517da6c9c3364475
+2844	4829	7482142348443794	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	57101978d7801ca5
+4278	6003	7482142360283919	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	f154b77885000761
+4046	6110	7482142361533413	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	5ca87b6f1c1a8f5e
+4071	6210	7482142363334484	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	d41db4d940a1b092
+4436	6257	7482142363887626	CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj	8230c5db115484db
+4829	6452	7482142365955370	CMakeFiles/RemoteController.dir/Core/Src/sysmem.c.obj	748232272be22a2d
+505	1031	7719866343672286	RemoteController.elf	431996d7b33abce3
+4289	6820	7482142369735474	CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	298e06133e974e81
+6110	6825	7482142369972631	CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj	39e2010dbc4cea65
+6003	7504	7482142377082183	CMakeFiles/RemoteController.dir/Core/Src/syscalls.c.obj	dc64115fd1058e97
+24	506	7526703936285745	CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj	82b4f27773fe0513
+35	504	7719866338660175	CMakeFiles/RemoteController.dir/Core/Src/nrf24l01p.c.obj	e6e4093f242323e1
+104	7528	7745546413282815	build.ninja	8bd265861b953311
+40	789	7719857840856267	CMakeFiles/RemoteController.dir/Core/Src/General.c.obj	ec58bc913cda8c6a

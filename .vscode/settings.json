@@ -1,0 +1,7 @@
+{
+    "stm32-for-vscode.makePath": false,
+    "files.associations": {
+        "tools.h": "c",
+        "nrf24l01p.h": "c"
+    }
+}
