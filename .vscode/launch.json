@@ -10,9 +10,6 @@
             "request": "launch",
             "servertype": "openocd",
             "cwd": "${workspaceFolder}",
-            // "openOCDLaunchCommands": [
-            //     "hla_serial 6068FF286068FF286068FF28"
-            // ],
             "executable": "${command:cmake.launchTargetPath}",
             "device": "STM32F103C8", // Change this to match your MCU
             "configFiles": [

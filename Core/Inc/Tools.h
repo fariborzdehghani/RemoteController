@@ -9,12 +9,14 @@
 #define INC_TOOLS_H_
 
 #include "main.h"
+#include <stdbool.h>
 
 extern UART_HandleTypeDef huart1;
 
-void LogIntToPC(uint8_t Data);
-void LogStringToPC(char *Data);
-char *int_to_binary_string(int num);
+bool LogStringToPC(const char *data);
+void Tools_ProcessLogQueue(void);
+void Tools_UART_TxCpltCallback(UART_HandleTypeDef *huart);
+uint32_t Tools_GetDroppedLogCount(void);
 
 #endif /* INC_TOOLS_H_ */
 

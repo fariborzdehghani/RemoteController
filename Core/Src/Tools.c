@@ -1,35 +1,121 @@
 #include "Tools.h"
-#include "string.h"
-// #include "stm32f1xx_hal_uart.h"
 
-void LogIntToPC(uint8_t Data)
+#include <string.h>
+
+#define LOG_QUEUE_SIZE 512u
+
+static uint8_t log_queue[LOG_QUEUE_SIZE];
+static volatile uint16_t log_head;
+static volatile uint16_t log_tail;
+static volatile uint16_t active_length;
+static volatile uint8_t transmit_busy;
+static volatile uint32_t dropped_messages;
+
+static uint16_t queue_used(void)
 {
-	HAL_UART_Transmit(&huart1, &Data, 1, 1000);
+    if (log_head >= log_tail)
+    {
+        return (uint16_t)(log_head - log_tail);
+    }
+
+    return (uint16_t)(LOG_QUEUE_SIZE - log_tail + log_head);
 }
 
-void LogStringToPC(char *Data)
+static void start_next_transmission(void)
 {
-	HAL_UART_Transmit(&huart1, Data, strlen(Data), 1000);
-	HAL_UART_Transmit(&huart1, "\n", 1, 1000);
+    uint16_t length;
+
+    if (transmit_busy != 0u || log_head == log_tail)
+    {
+        return;
+    }
+
+    length = (log_head > log_tail)
+                 ? (uint16_t)(log_head - log_tail)
+                 : (uint16_t)(LOG_QUEUE_SIZE - log_tail);
+
+    if (HAL_UART_Transmit_IT(&huart1, &log_queue[log_tail], length) == HAL_OK)
+    {
+        active_length = length;
+        transmit_busy = 1u;
+    }
 }
 
-void LogInBinaryToPC(int Data)
+bool LogStringToPC(const char *data)
 {
-	char *binValue;
-	binValue = int_to_binary_string(Data);
-	HAL_UART_Transmit(&huart1, binValue, 8, 1000);
-	HAL_UART_Transmit(&huart1, "\n", 1, 1000);
+    size_t length;
+    uint32_t interrupt_state;
+    uint16_t free_space;
+
+    if (data == NULL)
+    {
+        return false;
+    }
+
+    length = strlen(data);
+    if (length > (LOG_QUEUE_SIZE - 2u))
+    {
+        length = LOG_QUEUE_SIZE - 2u;
+    }
+
+    interrupt_state = __get_PRIMASK();
+    __disable_irq();
+
+    free_space = (uint16_t)(LOG_QUEUE_SIZE - 1u - queue_used());
+    if ((length + 1u) > free_space)
+    {
+        dropped_messages++;
+        if (interrupt_state == 0u)
+        {
+            __enable_irq();
+        }
+        return false;
+    }
+
+    for (size_t index = 0u; index < length; index++)
+    {
+        log_queue[log_head] = (uint8_t)data[index];
+        log_head = (uint16_t)((log_head + 1u) % LOG_QUEUE_SIZE);
+    }
+    log_queue[log_head] = (uint8_t)'\n';
+    log_head = (uint16_t)((log_head + 1u) % LOG_QUEUE_SIZE);
+
+    start_next_transmission();
+
+    if (interrupt_state == 0u)
+    {
+        __enable_irq();
+    }
+
+    return true;
 }
 
-char *int_to_binary_string(int num)
+void Tools_ProcessLogQueue(void)
 {
-	int INT_BITS = 8;
-	char *bin_str = malloc(INT_BITS + 1); // allocate space for binary string
-	int i;
-	for (i = 0; i < INT_BITS; i++)
-	{
-		bin_str[i] = (num & (1 << (INT_BITS - i - 1))) ? '1' : '0'; // get i-th bit
-	}
-	bin_str[i] = '\0'; // add null terminator
-	return bin_str;
+    uint32_t interrupt_state = __get_PRIMASK();
+
+    __disable_irq();
+    start_next_transmission();
+    if (interrupt_state == 0u)
+    {
+        __enable_irq();
+    }
+}
+
+void Tools_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart == NULL || huart->Instance != USART1 || transmit_busy == 0u)
+    {
+        return;
+    }
+
+    log_tail = (uint16_t)((log_tail + active_length) % LOG_QUEUE_SIZE);
+    active_length = 0u;
+    transmit_busy = 0u;
+    start_next_transmission();
+}
+
+uint32_t Tools_GetDroppedLogCount(void)
+{
+    return dropped_messages;
 }

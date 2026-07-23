@@ -1,5 +1,5 @@
-D:/Electronics/Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/RemoteController.dir
-D:/Electronics/Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/edit_cache.dir
-D:/Electronics/Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/rebuild_cache.dir
-D:/Electronics/Projects/Flight Controller/06-Program/RemoteController/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-D:/Electronics/Projects/Flight Controller/06-Program/RemoteController/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/RemoteController.dir
+D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/edit_cache.dir
+D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/rebuild_cache.dir
+D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

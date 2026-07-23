@@ -62,10 +62,10 @@ void Error_Handler(void);
 #define IRQ_Pin GPIO_PIN_0
 #define IRQ_GPIO_Port GPIOA
 #define IRQ_EXTI_IRQn EXTI0_IRQn
-#define CE_Pin GPIO_PIN_2
-#define CE_GPIO_Port GPIOA
 #define CS_Pin GPIO_PIN_4
 #define CS_GPIO_Port GPIOA
+#define RESET_Pin GPIO_PIN_0
+#define RESET_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
