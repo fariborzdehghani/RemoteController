@@ -382,6 +382,7 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .data          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .bss           0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
@@ -479,11 +480,7 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .data          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .bss           0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .text.SX127X_Receive
-                0x00000000      0x134 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .text.SX127X_Sleep
-                0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .text.SX127X_SetModeRx
                 0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .text.SX127X_GetIrqFlags
                 0x00000000       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
@@ -587,6 +584,7 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
@@ -627,8 +625,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x28e CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x3a CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x74 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x24 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x3c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
@@ -2686,7 +2685,7 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x0800010c     0x3cc4
+.text           0x0800010c     0x41d4
                 0x0800010c                        . = ALIGN (0x4)
  *(.text)
  .text          0x0800010c       0x40 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -2720,406 +2719,423 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
  .text.Tools_UART_TxCpltCallback
                 0x08000690       0x68 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
                 0x08000690                Tools_UART_TxCpltCallback
+ .text.FlightLog_Read32
+                0x080006f8       0x36 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .text.FlightLog_Crc16
+                0x0800072e       0x74 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .text.FlightLog_IsRequestValid
+                0x080007a2       0xd6 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .text.FlightLog_IsResponseValid
+                0x08000878       0x6c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.packet_is_valid
-                0x080006f8       0x62 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- *fill*         0x0800075a        0x2 
+                0x080008e4      0x138 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.configure_radio
-                0x0800075c       0x60 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000a1c       0x60 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.start_watchdog
-                0x080007bc       0x60 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000a7c       0x60 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.resume_uart_receive
-                0x0800081c       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000adc       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.dequeue_packet
-                0x08000850       0xa8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000b10       0xa8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.transmit_packet
-                0x080008f8       0x5c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000bb8       0x60 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .text.process_radio_response
+                0x08000c18      0x104 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.process_packet
-                0x08000954       0x88 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000d1c       0x88 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.process_operator_timeout
-                0x080009dc       0x54 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000da4       0x54 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .text.General_Init
-                0x08000a30       0x5c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                0x08000a30                General_Init
+                0x08000df8       0x5c CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000df8                General_Init
  .text.General_Loop
-                0x08000a8c       0xb8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                0x08000a8c                General_Loop
+                0x08000e54       0xbc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000e54                General_Loop
  .text.HAL_UART_RxCpltCallback
-                0x08000b44       0xbc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                0x08000b44                HAL_UART_RxCpltCallback
+                0x08000f10       0xbc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000f10                HAL_UART_RxCpltCallback
  .text.HAL_UART_TxCpltCallback
-                0x08000c00       0x16 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                0x08000c00                HAL_UART_TxCpltCallback
- *fill*         0x08000c16        0x2 
+                0x08000fcc       0x16 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000fcc                HAL_UART_TxCpltCallback
+ *fill*         0x08000fe2        0x2 
  .text.HAL_UART_ErrorCallback
-                0x08000c18       0x38 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                0x08000c18                HAL_UART_ErrorCallback
+                0x08000fe4       0x38 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x08000fe4                HAL_UART_ErrorCallback
  .text.SX127X_ReadRegister
-                0x08000c50       0x88 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000c50                SX127X_ReadRegister
+                0x0800101c       0x88 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x0800101c                SX127X_ReadRegister
  .text.SX127X_WriteRegister
-                0x08000cd8       0x70 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000cd8                SX127X_WriteRegister
+                0x080010a4       0x70 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080010a4                SX127X_WriteRegister
  .text.reset_radio
-                0x08000d48       0x2c CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001114       0x2c CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .text.SX127X_Init
-                0x08000d74       0x94 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000d74                SX127X_Init
+                0x08001140       0x94 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001140                SX127X_Init
  .text.SX127X_IsOperational
-                0x08000e08       0x30 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000e08                SX127X_IsOperational
+                0x080011d4       0x30 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080011d4                SX127X_IsOperational
  .text.SX127X_SetFrequency
-                0x08000e38       0x60 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000e38                SX127X_SetFrequency
+                0x08001204       0x60 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001204                SX127X_SetFrequency
  .text.SX127X_SetTxPower
-                0x08000e98       0x78 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000e98                SX127X_SetTxPower
+                0x08001264       0x78 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001264                SX127X_SetTxPower
  .text.SX127X_SetSpreadingFactor
-                0x08000f10       0x70 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000f10                SX127X_SetSpreadingFactor
+                0x080012dc       0x70 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080012dc                SX127X_SetSpreadingFactor
  .text.SX127X_SetSignalBandwidth
-                0x08000f80       0xc8 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08000f80                SX127X_SetSignalBandwidth
+                0x0800134c       0xc8 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x0800134c                SX127X_SetSignalBandwidth
  .text.SX127X_SetCodingRate4
-                0x08001048       0x4e CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08001048                SX127X_SetCodingRate4
+                0x08001414       0x4e CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001414                SX127X_SetCodingRate4
  .text.SX127X_SetPreambleLength
-                0x08001096       0x2e CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x08001096                SX127X_SetPreambleLength
+                0x08001462       0x2e CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001462                SX127X_SetPreambleLength
  .text.SX127X_Send
-                0x080010c4      0x114 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x080010c4                SX127X_Send
+                0x08001490      0x114 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001490                SX127X_Send
+ .text.SX127X_Receive
+                0x080015a4      0x134 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080015a4                SX127X_Receive
  .text.SX127X_SetModeStandby
-                0x080011d8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x080011d8                SX127X_SetModeStandby
+                0x080016d8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080016d8                SX127X_SetModeStandby
+ .text.SX127X_SetModeRx
+                0x080016e8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080016e8                SX127X_SetModeRx
  .text.SX127X_SetModeTx
-                0x080011e8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x080011e8                SX127X_SetModeTx
+                0x080016f8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x080016f8                SX127X_SetModeTx
  .text.SX127X_ClearIrqFlags
-                0x080011f8       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
-                0x080011f8                SX127X_ClearIrqFlags
- .text.main     0x08001208       0x22 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                0x08001208                main
+                0x08001708       0x10 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x08001708                SX127X_ClearIrqFlags
+ .text.main     0x08001718       0x22 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x08001718                main
  .text.SystemClock_Config
-                0x0800122a       0x76 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                0x0800122a                SystemClock_Config
+                0x0800173a       0x76 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x0800173a                SystemClock_Config
  .text.MX_SPI1_Init
-                0x080012a0       0x6c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x080017b0       0x6c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .text.MX_USART1_UART_Init
-                0x0800130c       0x54 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x0800181c       0x54 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x08001360      0x118 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x08001870      0x118 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x08001478        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                0x08001478                Error_Handler
+                0x08001988        0xc CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x08001988                Error_Handler
  .text.NMI_Handler
-                0x08001484        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001484                NMI_Handler
+                0x08001994        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001994                NMI_Handler
  .text.HardFault_Handler
-                0x0800148c        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800148c                HardFault_Handler
+                0x0800199c        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800199c                HardFault_Handler
  .text.MemManage_Handler
-                0x08001494        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001494                MemManage_Handler
+                0x080019a4        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019a4                MemManage_Handler
  .text.BusFault_Handler
-                0x0800149c        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800149c                BusFault_Handler
+                0x080019ac        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019ac                BusFault_Handler
  .text.UsageFault_Handler
-                0x080014a4        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014a4                UsageFault_Handler
+                0x080019b4        0x8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019b4                UsageFault_Handler
  .text.SVC_Handler
-                0x080014ac        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014ac                SVC_Handler
+                0x080019bc        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019bc                SVC_Handler
  .text.DebugMon_Handler
-                0x080014b8        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014b8                DebugMon_Handler
+                0x080019c8        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019c8                DebugMon_Handler
  .text.PendSV_Handler
-                0x080014c4        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014c4                PendSV_Handler
+                0x080019d4        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019d4                PendSV_Handler
  .text.SysTick_Handler
-                0x080014d0        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014d0                SysTick_Handler
+                0x080019e0        0xc CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019e0                SysTick_Handler
  .text.EXTI0_IRQHandler
-                0x080014dc        0xe CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014dc                EXTI0_IRQHandler
- *fill*         0x080014ea        0x2 
+                0x080019ec        0xe CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019ec                EXTI0_IRQHandler
+ *fill*         0x080019fa        0x2 
  .text.USART1_IRQHandler
-                0x080014ec       0x14 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080014ec                USART1_IRQHandler
+                0x080019fc       0x14 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080019fc                USART1_IRQHandler
  .text.HAL_MspInit
-                0x08001500       0x44 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08001500                HAL_MspInit
+                0x08001a10       0x44 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001a10                HAL_MspInit
  .text.HAL_SPI_MspInit
-                0x08001544       0x94 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08001544                HAL_SPI_MspInit
+                0x08001a54       0x94 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001a54                HAL_SPI_MspInit
  .text.HAL_UART_MspInit
-                0x080015d8       0xa8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x080015d8                HAL_UART_MspInit
+                0x08001ae8       0xa8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001ae8                HAL_UART_MspInit
  .text.HAL_SPI_Init
-                0x08001680      0x108 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-                0x08001680                HAL_SPI_Init
+                0x08001b90      0x108 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08001b90                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x08001788      0x286 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-                0x08001788                HAL_SPI_Transmit
+                0x08001c98      0x286 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08001c98                HAL_SPI_Transmit
  .text.HAL_SPI_Receive
-                0x08001a0e      0x230 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-                0x08001a0e                HAL_SPI_Receive
+                0x08001f1e      0x230 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08001f1e                HAL_SPI_Receive
  .text.HAL_SPI_TransmitReceive
-                0x08001c3e      0x360 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-                0x08001c3e                HAL_SPI_TransmitReceive
- *fill*         0x08001f9e        0x2 
+                0x0800214e      0x360 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x0800214e                HAL_SPI_TransmitReceive
+ *fill*         0x080024ae        0x2 
  .text.SPI_WaitFlagStateUntilTimeout
-                0x08001fa0      0x110 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x080024b0      0x110 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.SPI_EndRxTransaction
-                0x080020b0       0xa4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x080025c0       0xa4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.SPI_EndRxTxTransaction
-                0x08002154       0x3c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08002664       0x3c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.HAL_Init
-                0x08002190       0x2c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08002190                HAL_Init
+                0x080026a0       0x2c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080026a0                HAL_Init
  .text.HAL_InitTick
-                0x080021bc       0x60 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080021bc                HAL_InitTick
+                0x080026cc       0x60 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080026cc                HAL_InitTick
  .text.HAL_IncTick
-                0x0800221c       0x24 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800221c                HAL_IncTick
+                0x0800272c       0x24 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800272c                HAL_IncTick
  .text.HAL_GetTick
-                0x08002240       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08002240                HAL_GetTick
+                0x08002750       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08002750                HAL_GetTick
  .text.HAL_Delay
-                0x08002254       0x48 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08002254                HAL_Delay
+                0x08002764       0x48 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08002764                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x0800229c      0x504 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0800229c                HAL_RCC_OscConfig
+                0x080027ac      0x504 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080027ac                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x080027a0      0x1d4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080027a0                HAL_RCC_ClockConfig
+                0x08002cb0      0x1d4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002cb0                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002974       0xa8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002974                HAL_RCC_GetSysClockFreq
+                0x08002e84       0xa8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002e84                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x08002a1c       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002a1c                HAL_RCC_GetHCLKFreq
+                0x08002f2c       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002f2c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08002a30       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002a30                HAL_RCC_GetPCLK1Freq
+                0x08002f40       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002f40                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08002a58       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002a58                HAL_RCC_GetPCLK2Freq
+                0x08002f68       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002f68                HAL_RCC_GetPCLK2Freq
  .text.RCC_Delay
-                0x08002a80       0x3c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002f90       0x3c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_GPIO_Init
-                0x08002abc      0x308 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08002abc                HAL_GPIO_Init
+                0x08002fcc      0x308 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08002fcc                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08002dc4       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08002dc4                HAL_GPIO_WritePin
+                0x080032d4       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x080032d4                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08002df4       0x32 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08002df4                HAL_GPIO_TogglePin
- *fill*         0x08002e26        0x2 
+                0x08003304       0x32 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08003304                HAL_GPIO_TogglePin
+ *fill*         0x08003336        0x2 
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08002e28       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08002e28                HAL_GPIO_EXTI_IRQHandler
+                0x08003338       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08003338                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x08002e58       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08002e58                HAL_GPIO_EXTI_Callback
+                0x08003368       0x14 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08003368                HAL_GPIO_EXTI_Callback
  .text.HAL_DMA_Abort
-                0x08002e6c       0x76 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08002e6c                HAL_DMA_Abort
- *fill*         0x08002ee2        0x2 
+                0x0800337c       0x76 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0800337c                HAL_DMA_Abort
+ *fill*         0x080033f2        0x2 
  .text.HAL_DMA_Abort_IT
-                0x08002ee4       0xf0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08002ee4                HAL_DMA_Abort_IT
+                0x080033f4       0xf0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080033f4                HAL_DMA_Abort_IT
  .text.__NVIC_SetPriorityGrouping
-                0x08002fd4       0x48 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080034e4       0x48 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0800301c       0x1c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800352c       0x1c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x08003038       0x38 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08003548       0x38 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08003070       0x54 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08003580       0x54 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080030c4       0x64 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080035d4       0x64 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x08003128       0x44 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08003638       0x44 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800316c       0x16 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800316c                HAL_NVIC_SetPriorityGrouping
+                0x0800367c       0x16 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800367c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08003182       0x38 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08003182                HAL_NVIC_SetPriority
+                0x08003692       0x38 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08003692                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080031ba       0x1c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080031ba                HAL_NVIC_EnableIRQ
+                0x080036ca       0x1c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080036ca                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080031d6       0x18 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080031d6                HAL_SYSTICK_Config
+                0x080036e6       0x18 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080036e6                HAL_SYSTICK_Config
  .text.HAL_UART_Init
-                0x080031ee       0xa0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080031ee                HAL_UART_Init
+                0x080036fe       0xa0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080036fe                HAL_UART_Init
  .text.HAL_UART_Transmit_IT
-                0x0800328e       0x6a CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800328e                HAL_UART_Transmit_IT
+                0x0800379e       0x6a CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800379e                HAL_UART_Transmit_IT
  .text.HAL_UART_Receive_IT
-                0x080032f8       0x4a CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080032f8                HAL_UART_Receive_IT
- *fill*         0x08003342        0x2 
+                0x08003808       0x4a CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003808                HAL_UART_Receive_IT
+ *fill*         0x08003852        0x2 
  .text.HAL_UART_IRQHandler
-                0x08003344      0x524 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003344                HAL_UART_IRQHandler
+                0x08003854      0x524 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003854                HAL_UART_IRQHandler
  .text.HAL_UARTEx_RxEventCallback
-                0x08003868       0x16 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003868                HAL_UARTEx_RxEventCallback
+                0x08003d78       0x16 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003d78                HAL_UARTEx_RxEventCallback
  .text.UART_Start_Receive_IT
-                0x0800387e       0x72 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800387e                UART_Start_Receive_IT
+                0x08003d8e       0x72 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003d8e                UART_Start_Receive_IT
  .text.UART_EndRxTransfer
-                0x080038f0       0xc4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003e00       0xc4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x080039b4       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003ec4       0x28 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x080039dc       0x9e CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003eec       0x9e CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x08003a7a       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003f8a       0x30 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Receive_IT
-                0x08003aaa      0x17c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- *fill*         0x08003c26        0x2 
+                0x08003fba      0x17c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ *fill*         0x08004136        0x2 
  .text.UART_SetConfig
-                0x08003c28      0x11c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08004138      0x11c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.SystemInit
-                0x08003d44        0xc CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08003d44                SystemInit
+                0x08004254        0xc CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08004254                SystemInit
  .text.Reset_Handler
-                0x08003d50       0x48 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
-                0x08003d50                Reset_Handler
+                0x08004260       0x48 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+                0x08004260                Reset_Handler
  .text.Default_Handler
-                0x08003d98        0x2 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
-                0x08003d98                RTC_Alarm_IRQHandler
-                0x08003d98                EXTI2_IRQHandler
-                0x08003d98                TIM1_CC_IRQHandler
-                0x08003d98                PVD_IRQHandler
-                0x08003d98                EXTI3_IRQHandler
-                0x08003d98                I2C2_EV_IRQHandler
-                0x08003d98                ADC1_2_IRQHandler
-                0x08003d98                SPI1_IRQHandler
-                0x08003d98                TAMPER_IRQHandler
-                0x08003d98                DMA1_Channel4_IRQHandler
-                0x08003d98                USART3_IRQHandler
-                0x08003d98                RTC_IRQHandler
-                0x08003d98                DMA1_Channel7_IRQHandler
-                0x08003d98                CAN1_RX1_IRQHandler
-                0x08003d98                TIM4_IRQHandler
-                0x08003d98                I2C1_EV_IRQHandler
-                0x08003d98                DMA1_Channel6_IRQHandler
-                0x08003d98                TIM3_IRQHandler
-                0x08003d98                RCC_IRQHandler
-                0x08003d98                TIM1_TRG_COM_IRQHandler
-                0x08003d98                DMA1_Channel1_IRQHandler
-                0x08003d98                Default_Handler
-                0x08003d98                EXTI15_10_IRQHandler
-                0x08003d98                EXTI9_5_IRQHandler
-                0x08003d98                SPI2_IRQHandler
-                0x08003d98                DMA1_Channel5_IRQHandler
-                0x08003d98                EXTI4_IRQHandler
-                0x08003d98                USB_LP_CAN1_RX0_IRQHandler
-                0x08003d98                USB_HP_CAN1_TX_IRQHandler
-                0x08003d98                DMA1_Channel3_IRQHandler
-                0x08003d98                TIM1_UP_IRQHandler
-                0x08003d98                WWDG_IRQHandler
-                0x08003d98                TIM2_IRQHandler
-                0x08003d98                TIM1_BRK_IRQHandler
-                0x08003d98                EXTI1_IRQHandler
-                0x08003d98                USART2_IRQHandler
-                0x08003d98                I2C2_ER_IRQHandler
-                0x08003d98                DMA1_Channel2_IRQHandler
-                0x08003d98                CAN1_SCE_IRQHandler
-                0x08003d98                FLASH_IRQHandler
-                0x08003d98                I2C1_ER_IRQHandler
-                0x08003d98                USBWakeUp_IRQHandler
- .text.memcpy   0x08003d9a       0x1c C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
-                0x08003d9a                memcpy
+                0x080042a8        0x2 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+                0x080042a8                RTC_Alarm_IRQHandler
+                0x080042a8                EXTI2_IRQHandler
+                0x080042a8                TIM1_CC_IRQHandler
+                0x080042a8                PVD_IRQHandler
+                0x080042a8                EXTI3_IRQHandler
+                0x080042a8                I2C2_EV_IRQHandler
+                0x080042a8                ADC1_2_IRQHandler
+                0x080042a8                SPI1_IRQHandler
+                0x080042a8                TAMPER_IRQHandler
+                0x080042a8                DMA1_Channel4_IRQHandler
+                0x080042a8                USART3_IRQHandler
+                0x080042a8                RTC_IRQHandler
+                0x080042a8                DMA1_Channel7_IRQHandler
+                0x080042a8                CAN1_RX1_IRQHandler
+                0x080042a8                TIM4_IRQHandler
+                0x080042a8                I2C1_EV_IRQHandler
+                0x080042a8                DMA1_Channel6_IRQHandler
+                0x080042a8                TIM3_IRQHandler
+                0x080042a8                RCC_IRQHandler
+                0x080042a8                TIM1_TRG_COM_IRQHandler
+                0x080042a8                DMA1_Channel1_IRQHandler
+                0x080042a8                Default_Handler
+                0x080042a8                EXTI15_10_IRQHandler
+                0x080042a8                EXTI9_5_IRQHandler
+                0x080042a8                SPI2_IRQHandler
+                0x080042a8                DMA1_Channel5_IRQHandler
+                0x080042a8                EXTI4_IRQHandler
+                0x080042a8                USB_LP_CAN1_RX0_IRQHandler
+                0x080042a8                USB_HP_CAN1_TX_IRQHandler
+                0x080042a8                DMA1_Channel3_IRQHandler
+                0x080042a8                TIM1_UP_IRQHandler
+                0x080042a8                WWDG_IRQHandler
+                0x080042a8                TIM2_IRQHandler
+                0x080042a8                TIM1_BRK_IRQHandler
+                0x080042a8                EXTI1_IRQHandler
+                0x080042a8                USART2_IRQHandler
+                0x080042a8                I2C2_ER_IRQHandler
+                0x080042a8                DMA1_Channel2_IRQHandler
+                0x080042a8                CAN1_SCE_IRQHandler
+                0x080042a8                FLASH_IRQHandler
+                0x080042a8                I2C1_ER_IRQHandler
+                0x080042a8                USBWakeUp_IRQHandler
+ .text.memcpy   0x080042aa       0x1c C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x080042aa                memcpy
  *(.glue_7)
- .glue_7        0x08003db6        0x0 linker stubs
+ .glue_7        0x080042c6        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003db6        0x0 linker stubs
+ .glue_7t       0x080042c6        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x08003db6        0x2 
- .eh_frame      0x08003db8        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x080042c6        0x2 
+ .eh_frame      0x080042c8        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08003db8        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x08003db8                _init
- .init          0x08003dbc        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x080042c8        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x080042c8                _init
+ .init          0x080042cc        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08003dc4        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x08003dc4                _fini
- .fini          0x08003dc8        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
-                0x08003dd0                        . = ALIGN (0x4)
-                0x08003dd0                        _etext = .
+ .fini          0x080042d4        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x080042d4                _fini
+ .fini          0x080042d8        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+                0x080042e0                        . = ALIGN (0x4)
+                0x080042e0                        _etext = .
 
-.vfp11_veneer   0x08003dd0        0x0
- .vfp11_veneer  0x08003dd0        0x0 linker stubs
+.vfp11_veneer   0x080042e0        0x0
+ .vfp11_veneer  0x080042e0        0x0 linker stubs
 
-.v4_bx          0x08003dd0        0x0
- .v4_bx         0x08003dd0        0x0 linker stubs
+.v4_bx          0x080042e0        0x0
+ .v4_bx         0x080042e0        0x0 linker stubs
 
-.iplt           0x08003dd0        0x0
- .iplt          0x08003dd0        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x080042e0        0x0
+ .iplt          0x080042e0        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08003dd0      0x124
-                0x08003dd0                        . = ALIGN (0x4)
+.rodata         0x080042e0      0x13c
+                0x080042e0                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08003dd0       0xb5 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .rodata        0x080042e0       0xb9 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  *(.rodata*)
- *fill*         0x08003e85        0x3 
+ *fill*         0x08004399        0x3 
+ .rodata.hex.1  0x0800439c       0x11 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ *fill*         0x080043ad        0x3 
  .rodata.disarm_packet.0
-                0x08003e88       0x40 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x080043b0       0x40 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .rodata.aPLLMULFactorTable.1
-                0x08003ec8       0x10 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080043f0       0x10 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08003ed8        0x2 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08003eda        0x2 
+                0x08004400        0x2 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08004402        0x2 
  .rodata.AHBPrescTable
-                0x08003edc       0x10 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08003edc                AHBPrescTable
+                0x08004404       0x10 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08004404                AHBPrescTable
  .rodata.APBPrescTable
-                0x08003eec        0x8 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08003eec                APBPrescTable
-                0x08003ef4                        . = ALIGN (0x4)
+                0x08004414        0x8 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08004414                APBPrescTable
+                0x0800441c                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08003ef4        0x8
-                0x08003ef4                        __exidx_start = .
+.ARM            0x0800441c        0x8
+                0x0800441c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08003ef4        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
-                0x08003efc                        __exidx_end = .
+ .ARM.exidx     0x0800441c        0x8 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+                0x08004424                        __exidx_end = .
 
-.rel.dyn        0x08003efc        0x0
- .rel.iplt      0x08003efc        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08004424        0x0
+ .rel.iplt      0x08004424        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.preinit_array  0x08003efc        0x0
-                0x08003efc                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004424        0x0
+                0x08004424                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003efc                        PROVIDE (__preinit_array_end = .)
+                0x08004424                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08003efc        0x4
-                0x08003efc                        PROVIDE (__init_array_start = .)
+.init_array     0x08004424        0x4
+                0x08004424                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08003efc        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08003f00                        PROVIDE (__init_array_end = .)
+ .init_array    0x08004424        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08004428                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08003f00        0x4
+.fini_array     0x08004428        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003f00        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08004428        0x4 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08003f04                        _sidata = LOADADDR (.data)
+                0x0800442c                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x08003f04
+.data           0x20000000        0xc load address 0x0800442c
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3137,11 +3153,11 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        _edata = .
 
-.igot.plt       0x2000000c        0x0 load address 0x08003f10
+.igot.plt       0x2000000c        0x0 load address 0x08004438
  .igot.plt      0x2000000c        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000000c                        . = ALIGN (0x4)
 
-.bss            0x2000000c      0x3ac load address 0x08003f10
+.bss            0x2000000c      0x438 load address 0x08004438
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.bss)
@@ -3187,31 +3203,36 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
                 0x20000304        0x4 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .bss.led_timer
                 0x20000308        0x4 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .bss.spi       0x2000030c        0x4 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .bss.pending_log_line
+                0x2000030c       0x8b CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .bss.log_line_pending
+                0x20000397        0x1 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .bss.spi       0x20000398        0x4 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .bss.radio_io_ok
-                0x20000310        0x1 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- *fill*         0x20000311        0x3 
- .bss.hspi1     0x20000314       0x58 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                0x20000314                hspi1
- .bss.huart1    0x2000036c       0x48 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                0x2000036c                huart1
- .bss.uwTick    0x200003b4        0x4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x200003b4                uwTick
+                0x2000039c        0x1 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ *fill*         0x2000039d        0x3 
+ .bss.hspi1     0x200003a0       0x58 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x200003a0                hspi1
+ .bss.huart1    0x200003f8       0x48 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x200003f8                huart1
+ .bss.uwTick    0x20000440        0x4 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000440                uwTick
  *(COMMON)
-                0x200003b8                        . = ALIGN (0x4)
-                0x200003b8                        _ebss = .
-                0x200003b8                        __bss_end__ = _ebss
+                0x20000444                        . = ALIGN (0x4)
+                0x20000444                        _ebss = .
+                0x20000444                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200003b8      0x600 load address 0x08003f10
-                0x200003b8                        . = ALIGN (0x8)
+                0x20000444      0x604 load address 0x08004438
+                0x20000448                        . = ALIGN (0x8)
+ *fill*         0x20000444        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x200003b8                        PROVIDE (_end = .)
-                0x200005b8                        . = (. + _Min_Heap_Size)
- *fill*         0x200003b8      0x200 
-                0x200009b8                        . = (. + _Min_Stack_Size)
- *fill*         0x200005b8      0x400 
-                0x200009b8                        . = ALIGN (0x8)
+                0x20000448                        PROVIDE (_end = .)
+                0x20000648                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000448      0x200 
+                0x20000a48                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000648      0x400 
+                0x20000a48                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3275,137 +3296,137 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
 LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_frame    0x00000000     0x2784
+.debug_frame    0x00000000     0x283c
  .debug_frame   0x00000000       0x20 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
  .debug_frame   0x00000020       0x2c C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
  .debug_frame   0x0000004c       0xe0 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
- .debug_frame   0x0000012c      0x1cc CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_frame   0x000002f8      0x2b8 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_frame   0x000005b0       0xc4 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_frame   0x00000674      0x13c CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x000007b0       0xc8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x00000878      0x824 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_frame   0x0000109c      0x334 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x000013d0      0x218 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x000015e8      0x14c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00001734      0x208 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x0000193c      0x428 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00001d64      0x944 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x000026a8       0x58 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00002700       0x38 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00002738       0x24 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x0000275c       0x28 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x0000012c      0x284 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_frame   0x000003b0      0x2b8 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_frame   0x00000668       0xc4 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_frame   0x0000072c      0x13c CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00000868       0xc8 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00000930      0x824 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_frame   0x00001154      0x334 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x00001488      0x218 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x000016a0      0x14c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x000017ec      0x208 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x000019f4      0x428 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x00001e1c      0x944 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00002760       0x58 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x000027b8       0x38 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x000027f0       0x24 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00002814       0x28 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
 
-.debug_info     0x00000000     0xad84
+.debug_info     0x00000000     0xafa2
  .debug_info    0x00000000      0x7eb CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
- .debug_info    0x000007eb      0xda8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_info    0x00001593      0xa30 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_info    0x00001fc3      0xdae CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_info    0x00002d71      0x60d CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000337e      0xbda CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00003f58     0x1503 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_info    0x0000545b      0x704 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00005b5f      0x7d5 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00006334      0x5ab CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x000068df      0x6d2 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x00006fb1      0xa87 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00007a38     0x2fa8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x0000a9e0      0x222 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x0000ac02       0x30 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
- .debug_info    0x0000ac32      0x121 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_info    0x0000ad53       0x31 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_info    0x000007eb      0xfc6 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_info    0x000017b1      0xa30 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_info    0x000021e1      0xdae CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_info    0x00002f8f      0x60d CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000359c      0xbda CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00004176     0x1503 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_info    0x00005679      0x704 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00005d7d      0x7d5 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x00006552      0x5ab CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00006afd      0x6d2 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x000071cf      0xa87 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00007c56     0x2fa8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000abfe      0x222 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x0000ae20       0x30 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_info    0x0000ae50      0x121 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_info    0x0000af71       0x31 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
 
-.debug_abbrev   0x00000000     0x21be
+.debug_abbrev   0x00000000     0x21cd
  .debug_abbrev  0x00000000      0x275 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
- .debug_abbrev  0x00000275      0x365 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_abbrev  0x000005da      0x2dc CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_abbrev  0x000008b6      0x27a CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000b30      0x18b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000cbb      0x1ba CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00000e75      0x284 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_abbrev  0x000010f9      0x201 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x000012fa      0x2b3 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000015ad      0x1ca CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00001777      0x20b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x00001982      0x2f8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00001c7a      0x2f8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x00001f72      0x13f CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x000020b1       0x24 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
- .debug_abbrev  0x000020d5       0xc1 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_abbrev  0x00002196       0x28 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_abbrev  0x00000275      0x374 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_abbrev  0x000005e9      0x2dc CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_abbrev  0x000008c5      0x27a CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000b3f      0x18b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00000cca      0x1ba CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00000e84      0x284 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_abbrev  0x00001108      0x201 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00001309      0x2b3 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x000015bc      0x1ca CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001786      0x20b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x00001991      0x2f8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001c89      0x2f8 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00001f81      0x13f CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x000020c0       0x24 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_abbrev  0x000020e4       0xc1 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_abbrev  0x000021a5       0x28 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
 
-.debug_aranges  0x00000000      0xa30
+.debug_aranges  0x00000000      0xa58
  .debug_aranges
                 0x00000000       0x48 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_aranges
-                0x00000048       0x80 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x00000048       0xa8 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_aranges
-                0x000000c8       0xc0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x000000f0       0xc0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .debug_aranges
-                0x00000188       0x48 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x000001b0       0x48 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x000001d0       0x70 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x000001f8       0x70 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x00000240       0x40 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000268       0x40 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x00000280      0x1d0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x000002a8      0x1d0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_aranges
-                0x00000450       0xe0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000478       0xe0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000530       0x90 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000558       0x90 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x000005c0       0x58 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x000005e8       0x58 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000618       0x80 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x00000640       0x80 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_aranges
-                0x00000698      0x100 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000006c0      0x100 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000798      0x208 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000007c0      0x208 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_aranges
-                0x000009a0       0x28 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000009c8       0x28 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x000009c8       0x28 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+                0x000009f0       0x28 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
  .debug_aranges
-                0x000009f0       0x20 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x00000a18       0x20 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
  .debug_aranges
-                0x00000a10       0x20 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+                0x00000a38       0x20 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
 
 .debug_rnglists
-                0x00000000      0x7ad
+                0x00000000      0x7ce
  .debug_rnglists
                 0x00000000       0x33 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_rnglists
-                0x00000033       0x5f CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                0x00000033       0x80 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
  .debug_rnglists
-                0x00000092       0x90 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+                0x000000b3       0x90 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
  .debug_rnglists
-                0x00000122       0x32 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                0x00000143       0x32 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000154       0x4f CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000175       0x4f CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x000001a3       0x2d CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x000001c4       0x2d CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x000001d0      0x16e CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x000001f1      0x16e CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_rnglists
-                0x0000033e       0xa3 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000035f       0xa3 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_rnglists
-                0x000003e1       0x6c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000402       0x6c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_rnglists
-                0x0000044d       0x3f CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000046e       0x3f CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_rnglists
-                0x0000048c       0x64 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x000004ad       0x64 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_rnglists
-                0x000004f0       0xbb CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000511       0xbb CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_rnglists
-                0x000005ab      0x1bc CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000005cc      0x1bc CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_rnglists
-                0x00000767       0x1a CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+                0x00000788       0x1a CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
-                0x00000781       0x19 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+                0x000007a2       0x19 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
  .debug_rnglists
-                0x0000079a       0x13 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x000007bb       0x13 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
 
-.debug_macro    0x00000000    0x17851
+.debug_macro    0x00000000    0x1790f
  .debug_macro   0x00000000      0x27f CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_macro   0x0000027f      0xacc CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_macro   0x00000d4b      0x21b CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
@@ -3459,81 +3480,82 @@ LOAD C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.
  .debug_macro   0x00015b3f       0x10 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_macro   0x00015b4f       0x3c CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
  .debug_macro   0x00015b8b       0x20 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
- .debug_macro   0x00015bab      0x2c7 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_macro   0x00015e72       0x34 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_macro   0x00015ea6      0x148 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_macro   0x00015fee      0x1d1 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_macro   0x000161bf      0x142 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_macro   0x00016301      0x2c0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x000165c1       0x1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x000165dd       0x10 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x000165ed       0x1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x00016609       0x16 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x0001661f      0x170 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_macro   0x0001678f      0x1b1 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016940      0x1a7 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x00016ae7      0x1a0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_macro   0x00016c87      0x1bc CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_macro   0x00016e43      0x1aa CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_macro   0x00016fed      0x203 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_macro   0x000171f0      0x198 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_macro   0x00017388      0x198 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_macro   0x00017520      0x199 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_macro   0x000176b9      0x198 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_macro   0x00015bab      0x2d6 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00015e81       0x6a CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00015eeb       0x6a CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x00015f55      0x148 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_macro   0x0001609d      0x1d1 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_macro   0x0001626e      0x142 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_macro   0x000163b0      0x2cf CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001667f       0x1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001669b       0x10 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x000166ab       0x1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x000166c7       0x16 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x000166dd      0x170 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001684d      0x1b1 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x000169fe      0x1a7 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x00016ba5      0x1a0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_macro   0x00016d45      0x1bc CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_macro   0x00016f01      0x1aa CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_macro   0x000170ab      0x203 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_macro   0x000172ae      0x198 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_macro   0x00017446      0x198 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_macro   0x000175de      0x199 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_macro   0x00017777      0x198 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
 
-.debug_line     0x00000000     0xccd1
+.debug_line     0x00000000     0xd054
  .debug_line    0x00000000      0xa55 CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
- .debug_line    0x00000a55      0xc6b CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
- .debug_line    0x000016c0      0xc56 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
- .debug_line    0x00002316      0xa05 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
- .debug_line    0x00002d1b      0x8c1 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x000035dc      0x88b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00003e67     0x1d87 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_line    0x00005bee      0xa92 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00006680      0xf4b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x000075cb      0xaef CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x000080ba      0xe9c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00008f56      0xc5c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00009bb2     0x25f0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000c1a2      0x861 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000ca03       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
- .debug_line    0x0000ca7b      0x207 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_line    0x0000cc82       0x4f C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_line    0x00000a55      0xfd3 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+ .debug_line    0x00001a28      0xc5a CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_line    0x00002682      0xa1c CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+ .debug_line    0x0000309e      0x8c1 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000395f      0x88b CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x000041ea     0x1d87 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_line    0x00005f71      0xa92 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00006a03      0xf4b CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x0000794e      0xaef CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000843d      0xe9c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x000092d9      0xc5c CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00009f35     0x25f0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0000c525      0x861 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000cd86       0x78 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x0000cdfe      0x207 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_line    0x0000d005       0x4f C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
 
-.debug_str      0x00000000    0x8447e
- .debug_str     0x00000000    0x8447e CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
+.debug_str      0x00000000    0x8484b
+ .debug_str     0x00000000    0x8484b CMakeFiles/RemoteController.dir/Core/Src/Tools.c.obj
                               0x80fd7 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
-                              0x81a24 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/Core.c.obj
+                              0x81e07 (size before relaxing)
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/sx127x.c.obj
                               0x7ea38 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
-                              0x81d45 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/main.c.obj
+                              0x82036 (size before relaxing)
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_it.c.obj
                               0x7e33c (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x7e7df (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
                               0x7e761 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x7e568 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x7e264 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x7e1bb (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                               0x7e1de (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x7e4b4 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x7e8d5 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/Core/Src/system_stm32f1xx.c.obj
                               0x7de35 (size before relaxing)
- .debug_str     0x0008447e        0x0 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x0008484b        0x0 CMakeFiles/RemoteController.dir/startup_stm32f103xb.s.obj
                                  0xc8 (size before relaxing)
- .debug_str     0x0008447e        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_str     0x0008484b        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
                                 0x227 (size before relaxing)
- .debug_str     0x0008447e        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
+ .debug_str     0x0008484b        0x0 C:/Users/fariborz/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-strlen.o)
                                  0xef (size before relaxing)
 
 .comment        0x00000000       0x43

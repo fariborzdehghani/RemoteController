@@ -26,12 +26,12 @@ static volatile uint8_t uart_receive_paused;
 
 static bool watchdog_started;
 static bool radio_ready;
-#if HEARTBEAT_FAILSAFE_ENABLED
 static bool operator_armed;
 static uint32_t last_operator_packet_time;
-#endif
 static uint32_t last_radio_attempt_time;
 static uint32_t led_timer;
+static char pending_log_line[139];
+static bool log_line_pending;
 
 static bool packet_is_valid(const uint8_t *packet)
 {
@@ -40,8 +40,36 @@ static bool packet_is_valid(const uint8_t *packet)
         return false;
     }
 
-    if (packet[0] == PACKET_TYPE_CONFIGURATION ||
-        packet[0] == PACKET_TYPE_HEARTBEAT)
+    if (packet[0] == PACKET_TYPE_CONFIGURATION)
+    {
+        const uint16_t takeoff_altitude_cm =
+            (uint16_t)((uint16_t)packet[CONFIG_TAKEOFF_ALTITUDE_LSB_INDEX] |
+                       ((uint16_t)packet[CONFIG_TAKEOFF_ALTITUDE_MSB_INDEX] << 8));
+        const uint8_t hover_throttle = packet[CONFIG_HOVER_THROTTLE_INDEX];
+        const bool takeoff_altitude_valid =
+            takeoff_altitude_cm == TAKEOFF_ALTITUDE_LEGACY_DEFAULT ||
+            (takeoff_altitude_cm >= TAKEOFF_ALTITUDE_MIN_CM &&
+             takeoff_altitude_cm <= TAKEOFF_ALTITUDE_MAX_CM);
+        const bool hover_throttle_valid =
+            hover_throttle == HOVER_THROTTLE_AUTO ||
+            (hover_throttle >= packet[CONFIG_ARM_THROTTLE_INDEX] &&
+             hover_throttle <= packet[CONFIG_MAX_THROTTLE_INDEX]);
+
+        /*
+         * Zero is accepted for compatibility with older desktop builds; the
+         * flight controller interprets it as the legacy 50 cm target.
+         */
+        return takeoff_altitude_valid && hover_throttle_valid;
+    }
+
+    if (packet[0] == PACKET_TYPE_LOG_REQUEST)
+    {
+        /* Diagnostics are available before takeoff too, but never while the
+         * operator has armed the aircraft. The aircraft repeats this check. */
+        return !operator_armed && FlightLog_IsRequestValid(packet);
+    }
+
+    if (packet[0] == PACKET_TYPE_HEARTBEAT)
     {
         return true;
     }
@@ -49,7 +77,9 @@ static bool packet_is_valid(const uint8_t *packet)
     return packet[0] == PACKET_TYPE_CONTROL &&
            (packet[1] == CONTROL_COMMAND_DISARM ||
             packet[1] == CONTROL_COMMAND_ARM ||
-            packet[1] == CONTROL_COMMAND_TAKEOFF);
+            packet[1] == CONTROL_COMMAND_TAKEOFF) &&
+           (packet[1] != CONTROL_COMMAND_DISARM ||
+            packet[2] <= CONTROL_DISARM_REASON_LINK_TIMEOUT);
 }
 
 static bool configure_radio(void)
@@ -66,7 +96,7 @@ static bool configure_radio(void)
     SX127X_SetCodingRate4(5u);
     SX127X_SetPreambleLength(8u);
     SX127X_ClearIrqFlags();
-    SX127X_SetModeStandby();
+    SX127X_SetModeRx();
     return SX127X_IsOperational();
 }
 
@@ -148,50 +178,60 @@ static bool transmit_packet(const uint8_t *packet)
         return false;
     }
 
+    /* Listen immediately after TX; the aircraft's response follows shortly. */
+    SX127X_SetModeRx();
     return true;
+}
+
+static void process_radio_response(void)
+{
+    if (!radio_ready) return;
+    if (log_line_pending)
+    {
+        if (LogStringToPC(pending_log_line)) log_line_pending = false;
+        return;
+    }
+    uint8_t packet[DATA_PACKET_SIZE], length;
+    if (!SX127X_Receive(packet, sizeof(packet), &length) ||
+        length != DATA_PACKET_SIZE || !FlightLog_IsResponseValid(packet)) return;
+    static const char hex[] = "0123456789ABCDEF";
+    memcpy(pending_log_line, "FlightLog=", 10u);
+    for (unsigned i = 0; i < DATA_PACKET_SIZE; i++)
+    {
+        pending_log_line[10u + i * 2u] = hex[packet[i] >> 4];
+        pending_log_line[11u + i * 2u] = hex[packet[i] & 15u];
+    }
+    pending_log_line[138] = '\0';
+    log_line_pending = !LogStringToPC(pending_log_line);
 }
 
 static void process_packet(const uint8_t *packet)
 {
-#if HEARTBEAT_FAILSAFE_ENABLED
-    bool sent;
-#endif
-
     if (!packet_is_valid(packet))
     {
-        (void)LogStringToPC("Rejected invalid control packet");
+        (void)LogStringToPC("Rejected invalid packet");
         return;
     }
 
-#if HEARTBEAT_FAILSAFE_ENABLED
-    last_operator_packet_time = HAL_GetTick();
+    if (HEARTBEAT_FAILSAFE_ENABLED)
+        last_operator_packet_time = HAL_GetTick();
 
+    /* Track the download interlock even in builds with heartbeat disabled. */
     if (packet[0] == PACKET_TYPE_CONTROL &&
-        (packet[1] == CONTROL_COMMAND_ARM ||
-         packet[1] == CONTROL_COMMAND_TAKEOFF))
-    {
+        (packet[1] == CONTROL_COMMAND_ARM || packet[1] == CONTROL_COMMAND_TAKEOFF))
         operator_armed = true;
-    }
 
-    sent = transmit_packet(packet);
-    if (sent && packet[0] == PACKET_TYPE_CONTROL &&
-        packet[1] == CONTROL_COMMAND_DISARM)
-    {
+    const bool sent = transmit_packet(packet);
+    if (sent && packet[0] == PACKET_TYPE_CONTROL && packet[1] == CONTROL_COMMAND_DISARM)
         operator_armed = false;
-    }
-#else
-    (void)transmit_packet(packet);
-#endif
 }
 
-#if HEARTBEAT_FAILSAFE_ENABLED
 static void process_operator_timeout(void)
 {
     static const uint8_t disarm_packet[DATA_PACKET_SIZE] = {
-        PACKET_TYPE_CONTROL, CONTROL_COMMAND_DISARM};
+        PACKET_TYPE_CONTROL, CONTROL_COMMAND_DISARM, CONTROL_DISARM_REASON_LINK_TIMEOUT};
 
-    if (!operator_armed ||
-        (HAL_GetTick() - last_operator_packet_time) < OPERATOR_TIMEOUT_MS)
+    if (!operator_armed || (HAL_GetTick() - last_operator_packet_time) < OPERATOR_TIMEOUT_MS)
     {
         return;
     }
@@ -202,13 +242,14 @@ static void process_operator_timeout(void)
         (void)LogStringToPC("Operator link timed out; DISARM sent");
     }
 }
-#endif
 
 void General_Init(void)
 {
-#if HEARTBEAT_FAILSAFE_ENABLED
-    last_operator_packet_time = HAL_GetTick();
-#endif
+    if (HEARTBEAT_FAILSAFE_ENABLED)
+    {
+        last_operator_packet_time = HAL_GetTick();
+    }
+
     last_radio_attempt_time = HAL_GetTick();
     resume_uart_receive();
 
@@ -222,9 +263,10 @@ void General_Init(void)
         (void)LogStringToPC("SX127X initialization failed");
     }
 
-#if !HEARTBEAT_FAILSAFE_ENABLED
-    (void)LogStringToPC("WARNING: heartbeat failsafe is disabled");
-#endif
+    if (!HEARTBEAT_FAILSAFE_ENABLED)
+    {
+        (void)LogStringToPC("WARNING: heartbeat failsafe is disabled");
+    }
 
     start_watchdog();
 }
@@ -233,8 +275,7 @@ void General_Loop(void)
 {
     const uint32_t now = HAL_GetTick();
 
-    if (!radio_ready &&
-        (now - last_radio_attempt_time) >= RADIO_RETRY_INTERVAL_MS)
+    if (!radio_ready && (now - last_radio_attempt_time) >= RADIO_RETRY_INTERVAL_MS)
     {
         last_radio_attempt_time = now;
         radio_ready = configure_radio();
@@ -249,9 +290,12 @@ void General_Loop(void)
         process_packet(transmit_buffer);
     }
 
-#if HEARTBEAT_FAILSAFE_ENABLED
-    process_operator_timeout();
-#endif
+    if (HEARTBEAT_FAILSAFE_ENABLED)
+    {
+        process_operator_timeout();
+    }
+
+    process_radio_response();
     Tools_ProcessLogQueue();
 
     if ((now - led_timer) >= LED_INTERVAL_MS)

@@ -271,8 +271,7 @@ bool SX127X_Send(const uint8_t *buf, uint8_t len)
 
     while ((SX127X_ReadRegister(REG_IRQ_FLAGS) & IRQ_TX_DONE_MASK) == 0u)
     {
-        if (!radio_io_ok ||
-            (HAL_GetTick() - started_at) >= SX127X_TX_TIMEOUT_MS)
+        if (!radio_io_ok || (HAL_GetTick() - started_at) >= SX127X_TX_TIMEOUT_MS)
         {
             SX127X_SetModeStandby();
             return false;
