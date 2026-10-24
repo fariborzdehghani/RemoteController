@@ -1037,3 +1037,958 @@ events:
         D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/4.0.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.28000 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.22.0/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/fariborz/AppData/Local/hermes/hermes-agent/bin/"
+      - "C:/Users/fariborz/AppData/Local/hermes/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/fariborz/AppData/Local/Python/bin/"
+      - "C:/Users/fariborz/AppData/Roaming/npm/"
+      - "C:/Users/fariborz/.dotnet/tools/"
+      - "C:/ST/OpenOCD-20260302-0.12.0/bin/"
+      - "C:/Users/fariborz/.local/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe/ripgrep-15.2.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Cua/cua-driver/bin/"
+      - "C:/Users/fariborz/AppData/Local/Unity/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/6d62b1d5da/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.com"
+    found: "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3
+      Id flags:  
+      
+      The output was:
+      1
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o): in function `exit':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): undefined reference to `_exit'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_exit): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o): in function `_close_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): undefined reference to `_close'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_close): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_lseek): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o): in function `_read_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): undefined reference to `_read'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_read): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o): in function `_write_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): undefined reference to `_write'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_write): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_sbrk): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:58 (__resolve_tool_path)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.22.0/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/fariborz/AppData/Local/hermes/hermes-agent/bin/"
+      - "C:/Users/fariborz/AppData/Local/hermes/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/fariborz/AppData/Local/Python/bin/"
+      - "C:/Users/fariborz/AppData/Roaming/npm/"
+      - "C:/Users/fariborz/.dotnet/tools/"
+      - "C:/ST/OpenOCD-20260302-0.12.0/bin/"
+      - "C:/Users/fariborz/.local/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe/ripgrep-15.2.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Cua/cua-driver/bin/"
+      - "C:/Users/fariborz/AppData/Local/Unity/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/6d62b1d5da/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+    searched_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.com"
+    found: "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.22.0/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/fariborz/AppData/Local/hermes/hermes-agent/bin/"
+      - "C:/Users/fariborz/AppData/Local/hermes/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/fariborz/AppData/Local/Python/bin/"
+      - "C:/Users/fariborz/AppData/Roaming/npm/"
+      - "C:/Users/fariborz/.dotnet/tools/"
+      - "C:/ST/OpenOCD-20260302-0.12.0/bin/"
+      - "C:/Users/fariborz/.local/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe/ripgrep-15.2.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Cua/cua-driver/bin/"
+      - "C:/Users/fariborz/AppData/Local/Unity/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/6d62b1d5da/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+    searched_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-gcc"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.com"
+    found: "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GNU Tools for STM32 14.3.rel1.20251027-0700) 14.3.1 20250623
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "cmake/stm32cubemx/CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/"
+      - "C:/ST/STM32CubeCLT_1.22.0/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/"
+      - "C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/180/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/fariborz/AppData/Local/hermes/hermes-agent/bin/"
+      - "C:/Users/fariborz/AppData/Local/hermes/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/fariborz/AppData/Local/Python/bin/"
+      - "C:/Users/fariborz/AppData/Roaming/npm/"
+      - "C:/Users/fariborz/.dotnet/tools/"
+      - "C:/ST/OpenOCD-20260302-0.12.0/bin/"
+      - "C:/Users/fariborz/.local/bin/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe/ripgrep-15.2.0-x86_64-pc-windows-msvc/"
+      - "C:/Users/fariborz/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Cua/cua-driver/bin/"
+      - "C:/Users/fariborz/AppData/Local/Unity/bin/"
+      - "C:/Users/fariborz/AppData/Local/Programs/Microsoft VS Code/6d62b1d5da/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/win32-x64/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/stlink_server/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-g++.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-g++.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-g++.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-g++.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Make/bin/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-g++.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-g++.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/bin/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-g++.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-g++.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/st-arm-clang/bin/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-g++.com"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-g++.exe"
+      - "C:/ST/STM32CubeCLT_1.22.0/Ninja/bin/arm-none-eabi-g++"
+      - "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.com"
+    found: "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake/stm32cubemx/CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake/stm32cubemx/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags:  
+      
+      The output was:
+      1
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o): in function `exit':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): undefined reference to `_exit'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_exit): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-exit.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o): in function `_close_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): undefined reference to `_close'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_close): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-closer.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_lseek): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-lseekr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o): in function `_read_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): undefined reference to `_read'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_read): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-readr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o): in function `_write_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): undefined reference to `_write'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_write): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-writer.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): dangerous relocation: unsupported relocation
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: (_sbrk): Unknown destination type (ARM/Thumb) in C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\\libg.a(libc_a-sbrkr.o)
+      /build/gnu-tools-for-stm32_14.3.rel1.20251027-0700/src/newlib/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake/stm32cubemx/CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/"
+    found: "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\STMicroelectronics\\stlink_server"
+        - "C:\\ST\\STM32CubeCLT_1.22.0"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Make\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\st-arm-clang\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\Ninja\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\GNU-tools-for-STM32\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STLink-gdb-server\\bin"
+        - "C:\\ST\\STM32CubeCLT_1.22.0\\STM32CubeProgrammer\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\180\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\hermes-agent\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\hermes\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Roaming\\npm"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\ST\\OpenOCD-20260302-0.12.0\\bin"
+        - "C:\\Users\\fariborz\\.local\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0-full_build\\bin"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Programs\\Cua\\cua-driver\\bin"
+        - "C:\\Users\\fariborz\\.dotnet\\tools"
+        - "C:\\Users\\fariborz\\AppData\\Local\\Unity\\bin"
+        - "c:\\Users\\fariborz\\AppData\\Local\\Programs\\Microsoft VS Code\\6d62b1d5da\\resources\\app\\node_modules.asar.unpacked\\@vscode\\ripgrep-universal\\bin\\win32-x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.22.0/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake/stm32cubemx/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-mcpu=cortex-m3;-Wall;-Wextra;-Wpedantic;-fdata-sections;-ffunction-sections;-O0;-g3;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Electronic Projects/Flight Controller/06-Program/RemoteController/build/Debug/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+...

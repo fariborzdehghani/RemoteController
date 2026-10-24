@@ -1,4 +1,6 @@
 #include "Core.h"
+#include "RadioConfig.h"
+#include "CommandProtocol.h"
 #include "Tools.h"
 #include "sx127x.h"
 
@@ -35,7 +37,7 @@ static bool log_line_pending;
 
 static bool packet_is_valid(const uint8_t *packet)
 {
-    if (packet == NULL)
+    if (!CommandPacket_IsValidShape(packet, DATA_PACKET_SIZE))
     {
         return false;
     }
@@ -92,7 +94,7 @@ static bool configure_radio(void)
     SX127X_SetFrequency(915.0f);
     SX127X_SetTxPower(17, false);
     SX127X_SetSpreadingFactor(7u);
-    SX127X_SetSignalBandwidth(125000u);
+    SX127X_SetSignalBandwidth(RADIO_BANDWIDTH_HZ);
     SX127X_SetCodingRate4(5u);
     SX127X_SetPreambleLength(8u);
     SX127X_ClearIrqFlags();
